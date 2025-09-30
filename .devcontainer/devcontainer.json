@@ -1,0 +1,14 @@
+{
+  "name": "Laravel KPI Starter",
+  "workspaceFolder": "/workspaces/kpi-starter-app",
+  "postCreateCommand": "bash /workspaces/kpi-starter-scaffold/setup.sh",
+  "forwardPorts": [8080],
+  "customizations": {
+    "vscode": {
+      "extensions": [
+        "ms-azuretools.vscode-docker",
+        "bmewburn.vscode-intelephense-client"
+      ]
+    }
+  }
+}
